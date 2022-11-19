@@ -1,0 +1,347 @@
+/*!
+ * @package   solo
+ * @copyright Copyright (c)2014-2022 Nicholas K. Dionysopoulos / Akeeba Ltd
+ * @license   GNU General Public License version 3, or later
+ */
+/*
+ * @package   solo
+ * @copyright Copyright (c)2014-2022 Nicholas K. Dionysopoulos / Akeeba Ltd
+ * @license   GNU General Public License version 3, or later
+ */
+/**
+ * Dark Mode
+ *
+ * This applies the color modifications to both forced dark mode and automatic dark mode
+ */
+.akeeba-renderer-fef--dark {
+  /*
+   * @package   solo
+   * @copyright Copyright (c)2014-2022 Nicholas K. Dionysopoulos / Akeeba Ltd
+   * @license   GNU General Public License version 3, or later
+   */
+  /**
+   * Third party dark themes invariably change the anchor hover color. While FEF sets the anchor color it does not change
+   * its hover color. This makes things look a bit weird. By overriding the hover color we restore a bit of color harmony.
+   */
+}
+.akeeba-renderer-fef--dark :root {
+  color-scheme: dark;
+}
+.akeeba-renderer-fef--dark #akeeba-footer {
+  background-color: #373637;
+  color: #EFEFEF;
+}
+.akeeba-renderer-fef--dark .akeeba-renderer-fef a:hover {
+  color: #40B5B8;
+}
+.akeeba-renderer-fef--dark .akeeba-renderer-fef a[class*=akeeba-action] {
+  color: #EFEFEF;
+}
+.akeeba-renderer-fef--dark .akeeba-renderer-fef a[class*=akeeba-btn]:hover {
+  color: #EFEFEF !important;
+}
+.akeeba-renderer-fef--dark .akeeba-renderer-fef a[class*=akeeba-btn][class*="--grey"]:hover {
+  color: #514F50 !important;
+}
+.akeeba-renderer-fef--dark ul.akeeba-breadcrumb {
+  color: #bcbcbc;
+}
+.akeeba-renderer-fef--dark ul.akeeba-breadcrumb li a {
+  color: #EFEFEF;
+}
+.akeeba-renderer-fef--dark ul.akeeba-breadcrumb li a:hover {
+  color: #40B5B8;
+}
+.akeeba-renderer-fef--dark ul.akeeba-breadcrumb li span.divider {
+  color: #bcbcbc;
+}
+.akeeba-renderer-fef--dark #akeeba-modal-container {
+  background-color: #514F50;
+  border: 1px solid #858183;
+  box-shadow: 0px 4px 16px #1d1d1d;
+}
+.akeeba-renderer-fef--dark #akeeba-modal-container.modal-loading {
+  background: #514F50 url("../image/loading_dark.gif") no-repeat center center;
+}
+.akeeba-renderer-fef--dark ul.akeeba-changelog {
+  border: thin solid #858183;
+  background-color: transparent;
+}
+.akeeba-renderer-fef--dark ul.akeeba-changelog li.akeeba-changelog-changed {
+  color: #EFEFEF;
+}
+.akeeba-renderer-fef--dark .akeeba-popover {
+  background-color: #514F50;
+  color: #EFEFEF;
+}
+.akeeba-renderer-fef--dark .akeeba-popover-title {
+  background-color: #636062;
+  color: #EFEFEF;
+}
+.akeeba-renderer-fef--dark .akeeba-popover-content {
+  color: #EFEFEF;
+}
+.akeeba-renderer-fef--dark div.backup-steps-container {
+  background: #6b686a;
+  border: thin solid #373637;
+}
+.akeeba-renderer-fef--dark div.backup-steps-container #backup-step {
+  border-bottom: thin dotted #EFEFEF;
+}
+.akeeba-renderer-fef--dark div.backup-steps-container #backup-substep {
+  color: #40B5B8 !important;
+}
+.akeeba-renderer-fef--dark #warnings-list div {
+  border-bottom: thin dotted #EFEFEF;
+}
+.akeeba-renderer-fef--dark #error-panel-troubleshooting a {
+  color: #77cdd0;
+}
+.akeeba-renderer-fef--dark a.akeeba-browser-folder {
+  color: #EFEFEF;
+}
+.akeeba-renderer-fef--dark a.akeeba-browser-folder:hover {
+  color: #40B5B8;
+}
+.akeeba-renderer-fef--dark #tables .table-container {
+  background-color: #514F50;
+  color: #EFEFEF;
+  border-bottom: 1px solid #62c6c9;
+}
+.akeeba-renderer-fef--dark #tables .table-container:hover {
+  background-color: #5e5c5d;
+}
+.akeeba-renderer-fef--dark #tables .table-container span.table-rowcount {
+  color: #93C34E;
+}
+.akeeba-renderer-fef--dark #tables .table-container .akeeba-btn--grey {
+  background: #6b686a;
+  color: #EFEFEF;
+  border: thin solid #373637;
+}
+.akeeba-renderer-fef--dark #tables .table-container .akeeba-btn--grey:hover {
+  background: #858183;
+}
+.akeeba-renderer-fef--dark #ak_crumbs {
+  color: #858183;
+}
+.akeeba-renderer-fef--dark div#folders div.folder-container {
+  color: #EFEFEF;
+  background: #514F50;
+}
+.akeeba-renderer-fef--dark div#folders div.folder-container:hover {
+  background-color: #5e5c5d;
+}
+.akeeba-renderer-fef--dark div#folders div.folder-container span.folder-name {
+  color: #EFEFEF;
+}
+.akeeba-renderer-fef--dark div#folders div.folder-container span.folder-name:hover {
+  color: #40B5B8 !important;
+}
+.akeeba-renderer-fef--dark div#folders div.folder-container .akeeba-btn--grey {
+  background: #6b686a;
+  color: #EFEFEF;
+  border: thin solid #373637;
+}
+.akeeba-renderer-fef--dark div#folders div.folder-container .akeeba-btn--grey:hover {
+  background: #858183;
+}
+.akeeba-renderer-fef--dark div#files .file-container {
+  color: #EFEFEF;
+  background-color: #514F50;
+}
+.akeeba-renderer-fef--dark div#files .file-container:hover {
+  background-color: #5e5c5d;
+}
+.akeeba-renderer-fef--dark div#files .file-container span.file-name {
+  color: #EFEFEF;
+}
+.akeeba-renderer-fef--dark div#files .file-container span.file-name:hover {
+  color: #40B5B8;
+}
+.akeeba-renderer-fef--dark div#files .file-container span.file-size {
+  color: #93C34E;
+}
+.akeeba-renderer-fef--dark div#files .file-container .akeeba-btn--grey {
+  background: #6b686a;
+  color: #EFEFEF;
+  border: thin solid #373637;
+}
+.akeeba-renderer-fef--dark div#files .file-container .akeeba-btn--grey:hover {
+  background: #858183;
+}
+.akeeba-renderer-fef--dark div.akeeba-buadmin-startdate {
+  border-top: 1px solid #9e9b9d;
+  color: #bcbcbc;
+  padding-top: 2px;
+  margin-top: 2px;
+}
+.akeeba-renderer-fef--dark div.akeeba-wp {
+  background-color: #514F50;
+}
+
+@media (prefers-color-scheme: dark) {
+  /*
+   * @package   solo
+   * @copyright Copyright (c)2014-2022 Nicholas K. Dionysopoulos / Akeeba Ltd
+   * @license   GNU General Public License version 3, or later
+   */
+  #akeeba-footer {
+    background-color: #373637;
+    color: #EFEFEF;
+  }
+  /**
+   * Third party dark themes invariably change the anchor hover color. While FEF sets the anchor color it does not change
+   * its hover color. This makes things look a bit weird. By overriding the hover color we restore a bit of color harmony.
+   */
+  .akeeba-renderer-fef a:hover {
+    color: #40B5B8;
+  }
+  .akeeba-renderer-fef a[class*=akeeba-action] {
+    color: #EFEFEF;
+  }
+  .akeeba-renderer-fef a[class*=akeeba-btn]:hover {
+    color: #EFEFEF !important;
+  }
+  .akeeba-renderer-fef a[class*=akeeba-btn][class*="--grey"]:hover {
+    color: #514F50 !important;
+  }
+  ul.akeeba-breadcrumb {
+    color: #bcbcbc;
+  }
+  ul.akeeba-breadcrumb li a {
+    color: #EFEFEF;
+  }
+  ul.akeeba-breadcrumb li a:hover {
+    color: #40B5B8;
+  }
+  ul.akeeba-breadcrumb li span.divider {
+    color: #bcbcbc;
+  }
+  #akeeba-modal-container {
+    background-color: #514F50;
+    border: 1px solid #858183;
+    box-shadow: 0px 4px 16px #1d1d1d;
+  }
+  #akeeba-modal-container.modal-loading {
+    background: #514F50 url("../image/loading_dark.gif") no-repeat center center;
+  }
+  ul.akeeba-changelog {
+    border: thin solid #858183;
+    background-color: transparent;
+  }
+  ul.akeeba-changelog li.akeeba-changelog-changed {
+    color: #EFEFEF;
+  }
+  .akeeba-popover {
+    background-color: #514F50;
+    color: #EFEFEF;
+  }
+  .akeeba-popover-title {
+    background-color: #636062;
+    color: #EFEFEF;
+  }
+  .akeeba-popover-content {
+    color: #EFEFEF;
+  }
+  div.backup-steps-container {
+    background: #6b686a;
+    border: thin solid #373637;
+  }
+  div.backup-steps-container #backup-step {
+    border-bottom: thin dotted #EFEFEF;
+  }
+  div.backup-steps-container #backup-substep {
+    color: #40B5B8 !important;
+  }
+  #warnings-list div {
+    border-bottom: thin dotted #EFEFEF;
+  }
+  #error-panel-troubleshooting a {
+    color: #77cdd0;
+  }
+  a.akeeba-browser-folder {
+    color: #EFEFEF;
+  }
+  a.akeeba-browser-folder:hover {
+    color: #40B5B8;
+  }
+  #tables .table-container {
+    background-color: #514F50;
+    color: #EFEFEF;
+    border-bottom: 1px solid #62c6c9;
+  }
+  #tables .table-container:hover {
+    background-color: #5e5c5d;
+  }
+  #tables .table-container span.table-rowcount {
+    color: #93C34E;
+  }
+  #tables .table-container .akeeba-btn--grey {
+    background: #6b686a;
+    color: #EFEFEF;
+    border: thin solid #373637;
+  }
+  #tables .table-container .akeeba-btn--grey:hover {
+    background: #858183;
+  }
+  #ak_crumbs {
+    color: #858183;
+  }
+  div#folders div.folder-container {
+    color: #EFEFEF;
+    background: #514F50;
+  }
+  div#folders div.folder-container:hover {
+    background-color: #5e5c5d;
+  }
+  div#folders div.folder-container span.folder-name {
+    color: #EFEFEF;
+  }
+  div#folders div.folder-container span.folder-name:hover {
+    color: #40B5B8 !important;
+  }
+  div#folders div.folder-container .akeeba-btn--grey {
+    background: #6b686a;
+    color: #EFEFEF;
+    border: thin solid #373637;
+  }
+  div#folders div.folder-container .akeeba-btn--grey:hover {
+    background: #858183;
+  }
+  div#files .file-container {
+    color: #EFEFEF;
+    background-color: #514F50;
+  }
+  div#files .file-container:hover {
+    background-color: #5e5c5d;
+  }
+  div#files .file-container span.file-name {
+    color: #EFEFEF;
+  }
+  div#files .file-container span.file-name:hover {
+    color: #40B5B8;
+  }
+  div#files .file-container span.file-size {
+    color: #93C34E;
+  }
+  div#files .file-container .akeeba-btn--grey {
+    background: #6b686a;
+    color: #EFEFEF;
+    border: thin solid #373637;
+  }
+  div#files .file-container .akeeba-btn--grey:hover {
+    background: #858183;
+  }
+  div.akeeba-buadmin-startdate {
+    border-top: 1px solid #9e9b9d;
+    color: #bcbcbc;
+    padding-top: 2px;
+    margin-top: 2px;
+  }
+  div.akeeba-wp {
+    background-color: #514F50;
+  }
+}
+
+/*# sourceMappingURL=theme_dark.min.css.map */
