@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /wp-admin/
-Allow: /wp-admin/admin-ajax.php
-
-Sitemap: https://captainguru321.github.io/airapps.co/wp-sitemap.xml
