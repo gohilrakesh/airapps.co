@@ -4445,6 +4445,21 @@ var ekit_config = {"ajaxurl":"https:\/\/gohilrakesh.github.io/airapps.co\/wp-adm
 <script src="https://gohilrakesh.github.io/airapps.co/wp-content/plugins/dynamic-content-for-elementor/assets/js/settings.min.js" id="dce-settings-js"></script>
 <script src="https://gohilrakesh.github.io/airapps.co/wp-content/plugins/dynamic-content-for-elementor/assets/js/fix-background-loop.min.js" id="dce-fix-background-loop-js"></script>
 
+<script>
+  function unHideButton() {
+    if (grecaptcha.getResponse().length > 0) {
+      document.getElementById('submit').disabled = false
+    }
+  }
+  document.addEventListener("DOMContentLoaded", () => {
+    if (typeof grecaptcha === "object") {
+      document.querySelector('.g-recaptcha').dataset.callback = "unHideButton"
+    } else {
+      console.log("Unable to add `data-callback` to grecaptcha as it doesn't exist.");
+    }
+  });
+</script>
+
 </body>
 
 
